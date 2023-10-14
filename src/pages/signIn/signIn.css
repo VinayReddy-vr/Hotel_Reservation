@@ -1,0 +1,167 @@
+
+.siContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.siNavContainer{
+    height:60px;
+    background-color: blue;
+    display: flex;
+    justify-content:center;
+
+}
+.siNavbar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    max-width: 1024px;
+    align-items: center;
+}
+
+.siNavbar>h2{
+    color:white;
+    font-size: 18px;
+}
+
+.siNavIcons {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+   margin-right: 10px;
+   cursor:pointer;
+ 
+}
+
+.icons:hover{
+   cursor:pointer;
+   background-color: rgba(0,0,0,0.2) ;
+   padding:10px;
+   
+}
+
+.siContentContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.siText>h2{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.siTextInput{
+    display:flex;
+    flex-direction: column;
+}
+
+.siInputdiv{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 15px;
+}
+
+.siInputdiv>label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.siTInput{
+    height:28px;
+    border-radius:5px;
+    border: 1px solid gray;
+    padding: 5px
+}
+
+.siTInput:hover{
+    border: 1px solid blue;
+}
+
+.siBtn{
+    padding:15px;
+    background-color:rgb(87, 183, 215);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 380px;
+    font-weight: bold;
+    font-size:15px;
+    cursor:pointer;
+   
+}
+
+.siBtn:hover{
+    background-color: blue;
+}
+
+.siline {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.siline>p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.line {
+    flex-grow: 1;
+    border-top: 1px solid lightgray;
+    margin: 0 3px;
+}
+
+.slineIcons{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+.sli{
+    display:flex;
+    border:1px solid lightgray;
+    cursor:pointer;
+    padding: 5px;
+    width: 60px;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slIcons{
+    height:25px;
+   
+}
+
+.siOther>hr{
+    border: 0.1px solid lightgray;
+}
+
+.custom-line {
+    height: 1px; /* Adjust the height to control the thickness */
+    background-color: lightgrey; /* Adjust the background color as needed */
+    margin: 15px 0; /* Adjust the margin for spacing */
+  }
+
+.siFooter{
+    justify-content: center;
+    text-align: center;
+}
+
+.siFooter{
+    font-size: 12px;
+}
+
+.siFooter>span{
+    color:blue;
+}
+  
+.siFooter>p>span{
+    color:blue;
+}
